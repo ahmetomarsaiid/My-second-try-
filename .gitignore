@@ -1,0 +1,133 @@
+# Security and Privacy - DO NOT COMMIT THESE FILES
+.env
+.env.local
+.env.*.local
+
+# Session Files
+*.session
+*.session-journal
+my_account.session
+bot.session
+bot.session-journal
+
+# Database Files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Temporary HTML Files
+*.html
+!templates/*.html
+
+# Test Files
+test_results_*.txt
+test_*.py
+comandos_para_telegram.txt
+get_free_proxies.py
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django / Flask
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Scrapy / docs / notebooks
+.scrapy
+docs/_build/
+.ipynb_checkpoints
+
+# Virtual Environments
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.spyderproject
+.spyproject
+.ropeproject
+.vs/
+
+# Logs
+logs/
+
+# Sensitive Assets
+assets/proxies.txt
+assets/proxies_working.txt
+assets/proxies_*.txt
+assets/keysh.json
+
+# Extra
+db_bot.db
+comandos_para_telegram.txt
